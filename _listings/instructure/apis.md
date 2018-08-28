@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Flags
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -51,6 +51,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-openapi.md
+- name: Instructure Canvas Quiz Submissions API - Flagging a question.
+  x-api-slug: quiz-submissionsquiz-submission-idquestionsidflag-put
+  description: Flagging a question..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidflag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidflag-put-openapi.md
 - name: Instructure Canvas Quiz Submissions API - Flagging a question.
   x-api-slug: quiz-submissionsquiz-submission-idquestionsidflag-put
   description: Flagging a question..

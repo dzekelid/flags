@@ -17,8 +17,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-laun
 x-kinRank: "7"
 x-alexaRank: "187776"
 tags: Flags
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/apis.md
 specificationVersion: "0.14"
 apis:
@@ -180,6 +180,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkeyfeatureflagkey-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkeyfeatureflagkey-get-openapi.md
+- name: Launch Darkly - Get a list of statuses for all feature flags
+  x-api-slug: flagstatusesprojectkeyenvironmentkeyfeatureflagkey-get
+  description: Get a list of statuses for all feature flags.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
+  humanURL: http://www.launchdarkly.com
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkeyfeatureflagkey-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkeyfeatureflagkey-get-openapi.md
+- name: Launch Darkly - Get a list of statuses for all feature flags
+  x-api-slug: flagstatusesprojectkeyenvironmentkey-get
+  description: Get a list of statuses for all feature flags.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
+  humanURL: http://www.launchdarkly.com
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkey-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/launchdarkly/flagstatusesprojectkeyenvironmentkey-get-openapi.md
 x-common:
 - type: x-website
   url: http://www.launchdarkly.com

@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factua
 x-kinRank: "9"
 x-alexaRank: "147251"
 tags: Flags
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/factual/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Factual - Post Table Name Factual Flag
+  x-api-slug: ttable-namefactual-idflag-post
+  description: Post table name factual flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
+  humanURL: http://www.factual.com/
+  baseURL: https://api.v3.factual.com//
+  tags: Data, Geo, Places, Target, Business, Stack Network, SaaS, Technology, Enterprise,
+    internet, API Provider, Data Provider, Profiles, General Data, Locations
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/factual/ttable-namefactual-idflag-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/flags/master/_listings/factual/ttable-namefactual-idflag-post-openapi.md
 - name: Factual - Post Table Name Factual Flag
   x-api-slug: ttable-namefactual-idflag-post
   description: Post table name factual flag.
